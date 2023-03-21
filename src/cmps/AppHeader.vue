@@ -3,6 +3,7 @@
     <nav>
       <RouterLink to="/">
         <span role="img" aria-label="logo">🙏</span>
+        <h1>Heloooooo</h1>
       </RouterLink>
       <RouterLink to="/station">Stations</RouterLink>
       <RouterLink to="/review">Reviews</RouterLink>
@@ -22,8 +23,8 @@
 export default {
   computed: {
     loggedInUser() {
-      return this.$store.getters.loggedinUser
+      return this.$store.getters.loggedinUser;
     },
-  }
-}
+  },
+};
 </script>
