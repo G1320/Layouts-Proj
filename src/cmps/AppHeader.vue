@@ -4,6 +4,7 @@
       <RouterLink to="/">
         <span role="img" aria-label="logo">🙏</span>
         <h1>Heloooooo</h1>
+        <h2>AmitCohen</h2>
       </RouterLink>
       <RouterLink to="/station">Stations</RouterLink>
       <RouterLink to="/review">Reviews</RouterLink>
